@@ -13,7 +13,7 @@ export function useAccordionContext() {
 
   if (!ctx) {
     throw new Error(
-      "Accordion-related components must be wrapped by <Accordion>."
+      "Accordion-related components must be wrapped by <Accordion>"
     );
   }
 
@@ -40,5 +40,5 @@ export default function Accordion({ children, className }) {
 }
 
 Accordion.Item = AccordionItem;
-Accordion.Item.Title = AccordionTitle
-Accordion.Item.Content = AccordionContent
+Accordion.Item.Title = AccordionTitle;
+Accordion.Item.Content = AccordionContent;
